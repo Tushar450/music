@@ -1,0 +1,18 @@
+.Add{
+     background-color: rgb(124, 144, 151);
+     height: 95px;
+     width: 120px;
+     border-radius: 20px;
+}
+
+
+.album{
+    width: 120px;
+    margin-top: 80px;   
+    color: white;
+    background-color: rgb(107, 160, 107);
+    border-radius: 15px;
+    
+     
+}
+https://source.unsplash.com/1600x600/?music, 

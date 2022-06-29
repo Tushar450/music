@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Music Spot - Your favourite music is here</title>
+        <link rel="stylesheet" href="artistmore.css">
+        </head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo1.jpg" alt="Spotify">Music Spot</li>
+            <li><a href="index.html">Home</a></li> 
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+            <h1>Top Artist</h1>
+            <div class="songItemContainer">
+                <div class="songItem1">
+                    <img src="covers2/6.jpg" alt="1">
+                    <span class="songName"> Parmish Verma</span>
+                    <span class="songlistplay"><a href="parmish.html"><button></button></a></span>
+                </div>
+            </div>
+            <div class="songItemContainer">
+                <div class="songItem1">
+                    <img src="covers2/44.jpg" alt="1">
+                    <span class="songName">Dino James</span>
+                    <span class="songlistplay"><a href="dino.html"><button></button></a></span>
+                </div>
+            </div>
+            <div class="songItemContainer">
+                <div class="songItem1">
+                    <img src="covers2/42.jpg" alt="1">
+                    <span class="songName">Billie Eilish</span>
+                    <span class="songlistplay"><a href="billie.html"><button></button></a></span>
+                </div>
+            </div>
+            <div class="songItemContainer">
+                <div class="songItem1">
+                    <img src="covers2/9.jpg" alt="1">
+                    <span class="songName">Justin Bieber</span>
+                    <span class="songlistplay"><a href="justin.html"><button></button></a></span>
+                </div>
+            </div>
+            <div class="songItemContainer">
+                <div class="songItem1">
+                    <img src="covers2/45.jpg" alt="1">
+                    <span class="songName">Bilal Saeed</span>
+                    <span class="songlistplay"><a href="bilal.html"><button></button></a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i> 
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName">Warriyo - Mortals [NCS Release]</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+</body>
+</html>

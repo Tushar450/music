@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Music Spot - Your favourite music is here</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.css"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo1.jpg" alt="Spotify"> Music Spot</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+
+
+
+         <!--image slider start-->
+         <div class="sliderbox"> 
+    <div class="slider">
+        <div class="slides">
+          <!--radio buttons start-->
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+          <input type="radio" name="radio-btn" id="radio4">
+          <!--radio buttons end-->
+          <!--slide images start-->
+          <div class="slide first">
+            <img src="1.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="2.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="4.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="3.jpg" alt="">
+          </div>
+          <!--slide images end-->
+          <!--automatic navigation start-->
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+          </div>
+          <!--automatic navigation end-->
+        </div>
+        <!--manual navigation start-->
+        <div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+        </div>
+        <!--manual navigation end-->
+      </div>
+      <!--image slider end-->
+  
+      <script type="text/javascript">
+      var counter = 1;
+      setInterval(function(){
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if(counter > 4){
+          counter = 1;
+        }
+      }, 3000);
+      </script>
+      </sliderbox>
+
+
+
+
+
+
+
+        
+    </nav>
+    <div class="container">
+        <div class="songList">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div class="songItemContainer">
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">04:04 <i id="0" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+
+                 
+                 
+
+                
+
+
+
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">03:46 <i id="1" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">04:01 <i id="2" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">02:24 <i id="3" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">03:04 <i id="4" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">03:40 <i id="5" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="6" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="7" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="8" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1">
+                    <span class="songName">Let me Love You</span>
+                    <span class="songlistplay"><span class="timestamp">05:34 <i id="9" class="far songItemPlay fa-play-circle"></i> </span></span>
+                </div>
+
+                <div class="Album1">Artists</div>
+                <nav> 
+                     <ul>
+                         <li>  <div class="albumlist">
+                            <div class="albumpic">
+                                <span class="albumname">Arijit Singh</span>
+                                <a href="arijit.html"><img src="covers2/1.jpg"></a>
+                            </div>
+                         </li>
+                         <li><div class="albumlist"> 
+                            <div class="albumpic">
+                                <span class="albumname">Alan walker</span>
+                                <a href="Alan.html"><img src="covers2/23.jpg"></a> 
+                            </div>
+                            </div> 
+                         </li>
+                     </ul>
+                </nav> 
+                <div class="More">
+                    <h2><a href="artistmore.html">More</a></h2>
+                    </div>
+
+
+                  
+                 <div class="Album1">International Top Hits</div><br>
+                 <nav>
+                     <ul>
+                         <li>
+                             <div class="albumlist">
+                                <div class="album">
+                                    <span class="albumname"> Sugar & Brownies</span>
+                                    <div class="Time"><i id="10" class="far songItemPlay fa-play-circle">Play</i><span class="timestamp">00:00</span></div>
+                                    <div class="Add">
+                                        <img src="covers2/11.jpg"><br>
+                                         
+                                    </div>
+                                </div>
+                             </div>
+                         </li>
+                             <li> <div class="album">
+                                    <span class="albumname">Unstoppable</span>
+                                    <div class="Time"><i id="21" class="far songItemPlay fa-play-circle">Play</i><span class="timestamp">04:06</span></div>
+                                    <div class="Add"> 
+                                     <img src="covers2/12.jpg"></a> 
+                                    </div>
+                                  </div>
+                             </li>
+                        </li>
+                    </ul>
+                </nav>
+                
+                <div class="More">
+                    <h2><a href="intermore.html">More</a></h2>
+                    </div>
+
+
+
+
+
+                <div class="Album1">Punjabi Top Hits</div><br>
+                <nav>
+                    <ul>
+                        <li>
+                            <div class="albumlist">
+                               <div class="album">
+                                   <span class="albumname"> Gabbroo-Jassi-Gill</span>
+                                   <div class="Time"><i id="22" class="far songItemPlay fa-play-circle">Play</i><span class="timestamp">03:29</span></div>
+                                   <div class="Add">
+                                       <img src="covers2/29.jpg"> 
+                                        
+                                   </div>
+                               </div>
+                            </li>
+                            <li> <div class="album">
+                                   <span class="albumname">Putt Jatt Da</span>
+                                   <div class="Time"><i id="23" class="far songItemPlay fa-play-circle">Play</i><span class="timestamp">00:00</span></div>
+                                   <div class="Add"> 
+                                    <img src="covers2/27.jpg"></a> 
+                                   </div>
+                                 </div>
+                            </li>
+                       </li>
+                   </ul>
+               </nav>
+                    
+                   <div class="More">
+                    <h2><a href="punjabimore.html">More</a></h2>
+                    </div>
+
+                     
+                 
+
+                 <div class="Album1">Album</div><br>
+                 <nav>
+                     <ul>
+                         <li> <div class="albumlist">
+                            <div class="album">
+                                <span class="albumname">Raataan Lambiyan</span>
+                                <div class="Time"><i id="24" class="far songItemPlay fa-play-circle">Play</i><span class="timestamp">03:50</span></div>
+                                <div class="Add"> 
+                                <img src="covers2/15.jpg"></a> 
+                            </div>
+                         </li>
+                         <li> <div class="album">
+                                <span class="albumname">Mehabooba</span>
+                                <i id="25" class="far songItemPlay fa-play-circle">Play</i>
+                                <span class="timestamp">03:33</span>
+                                <div class="Add"> 
+                                 <img src="covers2/31.jpg"></a> 
+                              </div>
+                         </li>
+                     </ul>
+                 </nav>
+                 <div class="More">
+                    <h2><a href="hindimore.html">More</a></h2>
+                    </div>
+
+                             
+                </div>
+            </div>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <section class="footer">
+        <div class="social">
+            <h1><span> click on the link below</span> </h1>
+          <a href="https://www.linkedin.com/in/tushar-sharma-b9498a221"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/Tushar450"><i class="fab fa-github"></i></a>
+          <a href=" https://www.instagram.com/invites/contact/?i=iigg35z1i56h&utm_content=1yxqa44"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/profile.php?id=100009387214621"><i class="fab fa-facebook"></i></a>
+        </div>
+      </section>
+
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i> 
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName">Warriyo - Mortals [NCS Release]</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+</body>
+</html>

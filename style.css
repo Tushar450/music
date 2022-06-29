@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 48px;
+    background-color: black;
+    color: white;
+}
+ 
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 46px;
+    padding: 0 8px;
+     
+     
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 180vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    font-size: small;
+    display: flex;
+    width: 60%;
+    margin: 13px auto;
+    border-radius: 10px;
+    padding: 34px;
+    background-image: url('bg.jpg');
+    
+     
+}
+ 
+ 
+.bottom{
+    position: sticky;
+    height: 80px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.icons{
+    margin-top: 10px; 
+}
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 80vw; 
+    cursor: pointer;
+}
+
+.songItemContainer{
+    margin-top: 40px;
+}
+
+.songItem{
+    height: 35px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.songItem img{
+    width: 25px;
+    margin: 0 15px;
+    border-radius: 30px;
+}
+
+.timestamp{
+    margin: 0 15px;
+}
+
+.timestamp i{
+    cursor: pointer;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+.Album1 {
+    border-radius: 20px;
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    background-color:  rgb(81, 100, 116);
+    color: black;
+       
+}
+ 
+
+
+.albumlist{
+    margin-bottom: 0px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+  
+.albumname{
+    display: flex;
+    list-style-type: none;
+    position: relative;
+    margin-top: 0px; 
+    margin-left: 5px;
+    margin-right: 0px;
+    font-size: 17px;
+     
+    border-radius: 7px;
+    margin-right: 20px;
+}
+.album{
+     
+    width: 90px;
+    margin-top: 80px;   
+    color: white;
+    background-color: rgb(12,12,12);
+    border-radius: 15px;
+}
+
+
+.album img{
+    height: 80px;
+    width: 80px;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-left: 5px;
+    border-radius: 20px;
+}
+
+.albumpic{
+    margin-top: 100px;   
+    color: white;
+    
+     
+} 
+
+.albumpic img{
+    width: 80px;
+    height: 80px;
+    margin-top: 8px;
+    margin-right: 20px;
+    border-radius: 110px;
+}
+ 
+
+ 
+.rr{
+    background-color: brown;
+}
+
+.Time{
+    font-family: 'Varela Round', sans-serif;
+    font-size: small;
+}
+ 
+.More{
+    font-size:  9px;
+    width: 8vh;
+    border-radius: 5px;
+    margin-top: 95px; 
+    margin-left: 175px;
+     
+     
+}
+.More :hover{
+    color: rgb(82, 71, 71);
+}
+.More  a{
+    color: red;
+}
+
+
+.footer {
+    padding: 20px 0px;
+    background-color: wheat;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+     
+}
+
+.footer .social a{
+    font-size: 24px;
+    color: inherit;
+    border: 1px solid wheat;
+    width: 30px;
+    height: 28px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+     
+}
+ /*manual slide  */
+ .sliderbox{
+    margin-top: 400px;
+    margin: 0;
+     
+    padding: 0;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    
+    background: wheat;
+  }
+  
+  
+  .slider{
+    width: 360px;
+    height: 100px;
+    border-radius: 10px;
+    overflow: hidden;
+     
+     
+  }
+  
+  .slides{
+    width: 500%;
+    height: 100px;
+    display: flex;
+    size: 10px;
+  }
+  
+  .slides input{
+    display: none;
+  }
+  
+  .slide{
+    width: 20%;
+    transition: 2s;
+  }
+  
+  .slide img{
+    width: 360px;
+    height: 100px;
+  }
+  
+  /*css for manual slide navigation*/
+  
+  .navigation-manual{
+    position: absolute;
+    width: 360px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .manual-btn{
+    border: 2px solid #40D3DC;
+    padding: 4px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+  }
+  
+  .manual-btn:not(:last-child){
+    margin-right: 40px;
+  }
+  
+  .manual-btn:hover{
+    background: #40D3DC;
+  }
+  
+  #radio1:checked ~ .first{
+    margin-left: 0;
+  }
+  
+  #radio2:checked ~ .first{
+    margin-left: -20%;
+  }
+  
+  #radio3:checked ~ .first{
+    margin-left: -40%;
+  }
+  
+  #radio4:checked ~ .first{
+    margin-left: -60%;
+  }
+  
+  /*css for automatic navigation*/
+  
+  .navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 360px;
+    justify-content: center;
+    margin-top: 60px;
+    
+  }
+  
+  .navigation-auto div{
+    border: 2px solid #40D3DC;
+    padding: 4px;
+    border-radius: 10px;
+    transition: 1s;
+  }
+  
+  .navigation-auto div:not(:last-child){
+    margin-right: 40px;
+  }
+  
+  #radio1:checked ~ .navigation-auto .auto-btn1{
+    background: #40D3DC;
+  }
+  
+  #radio2:checked ~ .navigation-auto .auto-btn2{
+    background: #40D3DC;
+  }
+  
+  #radio3:checked ~ .navigation-auto .auto-btn3{
+    background: #40D3DC;
+  }
+  
+  #radio4:checked ~ .navigation-auto .auto-btn4{
+    background: #40D3DC;
+  }
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+
+ 
+
+
+
+
+
+@media only screen and (max-width: 1100px) {
+    body {
+        background-color: red;
+    }
+        
+     
+}
